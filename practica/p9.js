@@ -4,7 +4,7 @@ function factorialNumero(numero) {
 
     fact = 1
 
-    for (i = 1; i <= numero; ++i ) {
+    for (var i = 1; i <= numero; ++i ) {
         fact = fact * i
 
     }

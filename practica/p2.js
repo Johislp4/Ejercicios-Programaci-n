@@ -10,7 +10,7 @@ var array2 = [
 var suma1 = 0
 
 
-for (i=0; i < array1.length; ++i){
+for (var i=0; i < array1.length; ++i){
 
     suma1 = suma1 + array1[i]
 

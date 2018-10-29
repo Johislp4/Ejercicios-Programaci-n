@@ -5,7 +5,7 @@ var array2 = [6,7,8,9,10,11]
 
 function concatenar(a1, a2) {
 
-    for (i = 0; i < a2.length; ++i ) {
+    for (var i = 0; i < a2.length; ++i ) {
 
         a1.push(a2[i])
     }

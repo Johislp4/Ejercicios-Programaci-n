@@ -10,7 +10,7 @@ console.log(a)
 var suma = 0
 
 
-for (i=0; i < a.length; ++i){
+for (var i=0; i < a.length; ++i){
 
     suma = suma + a[i]
 

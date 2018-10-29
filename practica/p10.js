@@ -12,9 +12,9 @@ function potenciaNumero(b, e) {
          return b
      }
 
-     pow = 1
+     var pow = 1
 
-     for (i = 1; i <= e; ++i) {
+     for (var i = 1; i <= e; ++i) {
 
          pow *= b
      }
